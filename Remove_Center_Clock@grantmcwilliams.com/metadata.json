@@ -1,0 +1,8 @@
+{
+  "shell-version": [
+    "3.14.4"
+  ], 
+  "uuid": "Remove_Center_Clock@grantmcwilliams.com", 
+  "name": "Remove Center Clock", 
+  "description": "Removes centered titlebar clock"
+}
