@@ -1,0 +1,8 @@
+{
+  "shell-version": [
+    "3.14.4"
+  ], 
+  "uuid": "Remove_Right_Clock@grantmcwilliams.com", 
+  "name": "Remove Right Clock", 
+  "description": "Removes right aligned titlebar clock"
+}
