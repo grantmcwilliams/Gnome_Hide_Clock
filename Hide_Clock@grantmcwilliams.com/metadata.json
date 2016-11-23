@@ -1,7 +1,5 @@
 {
-  "shell-version": [
-    "3.14.4"
-  ], 
+  "shell-version": ["3.14", "3.16",  "3.18"],
   "uuid": "Hide_Clock@grantmcwilliams.com", 
   "name": "Hide Clock", 
   "description": "Hide title bar clock"
