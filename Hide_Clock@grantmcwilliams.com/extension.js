@@ -1,18 +1,23 @@
 // Copyright (C) 2016 Grant McWilliams
 // Licence: GPLv2+
 
-const Main = imports.ui.main;
-const SessionMode = imports.ui.sessionMode;
+let clockMenu = Panel.statusArea.dateMenu;
+let hiding;
 
 function init() {
 }
 
 function enable() {
-    menu = Main.panel.statusArea.dateMenu
-    menu.actor.hide()
+      clockMenu.container.hide();
+      hiding = clockMenu.actor.connect('notify::visible', actor => {
+        actor.hide()
+      })
 }
 
 function disable() {
-    menu = Main.panel.statusArea.dateMenu
-    menu.actor.show()
+        if(hiding){
+                clockMenu.actor.disconnect(hiding);
+        }
+        clockMenu.container.show();
 }
+
