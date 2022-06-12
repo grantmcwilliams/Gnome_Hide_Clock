@@ -4,8 +4,6 @@
 let clockMenu = Panel.statusArea.dateMenu;
 let hiding;
 
-function init() {
-}
 
 function enable() {
       clockMenu.container.hide();
@@ -21,3 +19,5 @@ function disable() {
         clockMenu.container.show();
 }
 
+function init() {
+}
