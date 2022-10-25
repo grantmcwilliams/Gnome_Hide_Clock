@@ -1,19 +1,15 @@
-// Copyright (C) 2016 Grant McWilliams
-// Licence: GPLv2+
-
 const Main = imports.ui.main;
 const Panel = Main.panel;
 
-let ClockMenu = Panel.statusArea.dateMenu;
+let dateMenu = Panel.statusArea.dateMenu;
 
 function enable() {
-      clockMenu.container.hide();
+      dateMenu.container.hide();
 }
 
 function disable() {
-        clockMenu.container.show();
+    	dateMenu.container.show();
 }
 
 function init() {
 }
-
